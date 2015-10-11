@@ -1,0 +1,139 @@
+body {
+  color: #032A5A;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+img {
+  display: none;
+}
+
+header {
+  background-color: #E9ECED;
+  border-bottom: 2px solid #032A5A;
+  display: inline-block;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  font-family: 'Crete Round', serif;
+}
+
+header img {
+  display: inline-block;
+  width: 105px;
+  padding-left: 45px;
+  padding-top: 20px;
+}
+
+header h1 {
+  display: inline-block;
+  padding-left: 45px;
+  vertical-align: top;
+}
+
+header nav {
+  display: inline-block;
+  margin-left: 620px;
+  vertical-align: top;
+  padding-top: 15px;
+}
+
+header ul {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.field {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 70%;
+  padding: 15px;
+  padding-bottom: 0;
+  border: 5px solid #000;
+  background: linear-gradient( to bottom, #5d9634, #5d9634 50%, #538c2b 50%, #538c2b );
+  background-size: 100% 50px;
+}
+
+.field ul {
+  margin: 0;
+  padding-top: 0;
+}
+
+.field li {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  margin: 0px;
+}
+
+.field p {
+  line-height: 17px;
+}
+
+.field .player-img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 80px;
+  border: 3px solid #00295E;
+  background-color: #B2B7BB;
+}
+
+.field .front {
+  margin: 0 15px;
+}
+
+.field .center:nth-child(8) {
+  margin-left: 400px;
+}
+
+.field .back:nth-child(10) {
+  margin-left: 275px;
+}
+
+.field #quarterback {
+  margin: 0 350px;
+  margin-top: -80px;
+}
+
+.field .back {
+  margin-bottom: 0;
+}
+
+.field h2, .coaches-bench h2 {
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border: 10px solid;
+    border-bottom: 10px solid #B2B7BB;
+    border-top: 10px solid #B2B7BB;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 5px 0;
+}
+
+.coaches-bench {
+  margin: 30px auto;
+  width: 70%;
+  padding: 15px;
+  background: linear-gradient( to bottom, #F1F3F7, #F1F3F7 50%, #DFE2E9 50%, #DFE2E9 );
+  background-size: 100% 10px;
+  border: 5px solid #000;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+
+

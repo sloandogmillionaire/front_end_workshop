@@ -1,0 +1,63 @@
+body {
+  color: #032A5A;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+  background-color: #E9ECED;
+  border-bottom: 2px solid #032A5A;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  font-family: 'Crete Round', serif;
+}
+
+header img {
+  display: inline-block;
+  width: 105px;
+  padding-left: 45px;
+  padding-top: 20px;
+}
+
+header h1 {
+  display: inline-block;
+  padding-left: 45px;
+  vertical-align: top;
+}
+
+header nav {
+  display: inline-block;
+  margin-left: 620px;
+  vertical-align: top;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.coaches-bench {
+  width: 70%;
+  margin: 30px auto;
+  padding: 15px;
+  background: linear-gradient( to bottom, #F1F3F7, #F1F3F7 50%, #DFE2E9 50%, #DFE2E9 );
+  background-size: 100% 10px;
+  border: 5px solid #000;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+
+
