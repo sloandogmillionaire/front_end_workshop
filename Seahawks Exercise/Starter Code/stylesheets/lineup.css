@@ -1,0 +1,83 @@
+img {
+  display: none;
+}
+
+section.field {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 70%;
+  padding: 15px;
+  padding-bottom: 0;
+  border: 5px solid #000;
+  background: linear-gradient( to bottom, #5d9634, #5d9634 50%, #538c2b 50%, #538c2b );
+  background-size: 100% 50px;
+}
+
+section.field ul {
+  margin: 0;
+  padding-top: 0;
+}
+
+section.field li {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+
+section.field p {
+  line-height: 17px;
+}
+
+section.field .player-img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 80px;
+  border: 3px solid #00295E;
+  background-color: #B2B7BB;
+}
+
+section.field .front {
+  margin: 0 15px;
+}
+
+section.field .center:nth-child(8) {
+  margin-left: 400px;
+}
+
+section.field .back:nth-child(10) {
+  margin-left: 275px;
+}
+
+section.field .front-back-d {
+  margin: 0 40px;
+}
+
+section.field .center-d {
+  margin: 0 79px;
+}
+
+section.field #quarterback {
+  margin: 0 350px;
+  margin-top: -80px;
+}
+
+section.field h2, .coaches-bench h2 {
+    text-align: center;
+    background-color: #FFF;
+    padding: 5px;
+    border: 10px solid;
+    border-bottom: 10px solid #B2B7BB;
+    border-top: 10px solid #B2B7BB;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 5px 0;
+}
+
+.coaches-bench {
+  margin: 30px auto;
+  width: 70%;
+  padding: 15px;
+  background: linear-gradient( to bottom, #F1F3F7, #F1F3F7 50%, #DFE2E9 50%, #DFE2E9 );
+  background-size: 100% 10px;
+  border: 5px solid #000;
+}
