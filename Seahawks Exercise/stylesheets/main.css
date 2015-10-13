@@ -1,0 +1,21 @@
+section {
+  width: 70%;
+  margin: 0 auto;
+  border: 3px solid #032A5A;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #E9ECED;
+}
+
+/*.summary OR */
+section:nth-child(2) {
+  margin-top: 90px;
+}
+
+section img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
