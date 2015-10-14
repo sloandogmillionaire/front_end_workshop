@@ -1,0 +1,29 @@
+table {
+  border-spacing: 0px;
+  border: 2px solid black;
+  margin: 50px auto;
+  width: 70%;
+  border-collapse: collapse;
+}
+th {
+  border: 2px solid black;
+  padding: 5px;
+}
+tbody tr:nth-child(odd) {
+  background: lightgray;
+}
+tbody tr:hover {
+  background: #E9ECED;
+}
+td {
+  padding: 10px;
+}
+.key-stat::before {
+  content: '* ';
+  color: #A24646;
+  font-weight: bold;
+}
+.key-stat {
+  color: #A24646;
+  font-weight: bold;
+}
