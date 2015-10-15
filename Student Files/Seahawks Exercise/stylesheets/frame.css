@@ -27,7 +27,7 @@ header h1 {
 
 header nav {
   display: inline-block;
-  margin-left: 370px;
+  float: right;
   vertical-align: top;
   padding-top: 15px;
   padding-right: 30px;
