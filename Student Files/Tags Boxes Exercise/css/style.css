@@ -1,0 +1,19 @@
+h1 {
+    background-color:red;
+    padding:5px;
+    border: solid black 3px;
+}
+
+p {
+    background-color:blue;
+    color:white;
+    padding:5px;
+    border: solid black 3px;
+}
+
+code {
+    background-color:white;
+    color:black;
+    padding:2px;
+    border:solid black 1px;
+}

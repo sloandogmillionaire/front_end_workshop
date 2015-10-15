@@ -1,1 +1,25 @@
-main.css
+section {
+    margin:0 auto;
+    margin-top:15px;
+    width:70%;
+    padding:15px;
+    border: solid #032A5A 3px;
+    border-radius:5px;
+    background-color:#E9ECED;
+}
+
+/*body {
+    margin:0;
+    margin-top:90px;
+}*/
+
+section:nth-child(2) {
+    margin-top:90px;
+}
+
+section > img {
+    border-radius: 50%;
+    width:100px;
+    margin:0 auto;
+    display:block;
+}
